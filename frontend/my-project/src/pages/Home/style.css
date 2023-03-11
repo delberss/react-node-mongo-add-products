@@ -1,0 +1,54 @@
+.Home{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    flex-direction: column;
+    color: #FFF;
+}
+
+.QueryProduct{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 10px;
+}
+
+.QueryProduct h2{
+    padding-top: 10px;
+    color: rgb(12, 56, 73);
+    border-bottom: 2px solid rgb(12, 56, 73);
+    margin-bottom: 10px;
+}
+
+.QueryProduct img{
+    width: 200px;
+    height: 200px;
+}
+
+.QueryProduct label{
+    font-size: 2rem;
+    color: #FFF;
+}
+
+.QueryProduct input, 
+.QueryProduct button{
+    border: none;
+    padding: 20px;
+    margin: 5px;
+    outline: none;
+    border-radius: 10px;
+    width: 300px;
+    font-size: 1.2rem;
+}
+
+.QueryProduct button {
+    cursor: pointer;
+    background-color: rgb(12, 56, 73);
+    color: #FEFEFE;
+}
+
+.QueryProduct button:hover {
+    cursor: pointer;
+    background-color: rgb(10, 45, 59);
+}
